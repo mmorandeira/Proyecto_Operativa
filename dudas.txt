@@ -1,0 +1,5 @@
+data-2009.csv:
+	1. Fanaro aparece como Ausente en el acta de cursada, pero en las notas de la catedra hay un "Fornaro" aprobado, que hacemos? la actas subidas son finales o preliminares?
+	2. Santangelo aparece en el acta de cursada como ausente, pero segun las notas de la catedra se presento en parcial y recu, que significa el ausente en el acta?
+	3. Nosei aparece como desaprobada en el acta de cursada, pero segun las notas de la catedra nunca se presento (no existe)
+	
