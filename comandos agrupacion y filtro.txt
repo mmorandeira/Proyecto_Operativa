@@ -1,3 +1,8 @@
-> df <- data.frame(Estado = c (1, 1, 2, 3, 3, 3, 4, 5, 5))
-> new_df2<-aggregate(df$Estado, df, length)
-> filter(new_df,x>1)
+
+ruta_puntoycoma <- "C:\Users\juanv\Desktop\Operativa\Proyecto_Operativa\Data\datos_catedra_parcial.csv" # utiliza nuevamente file.choose()
+gapminder_puntoycoma <- read_csv2(ruta_puntoycoma)
+
+
+# df <- data.frame(Estado = c (1, 1, 2, 3, 3, 3, 4, 5, 5))
+# new_df2<-aggregate(df$Estado, df, length)
+# filter(new_df,x>1)
