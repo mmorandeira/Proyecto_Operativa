@@ -266,17 +266,6 @@ data_percentage <- apply(t(matriz), 2, function(x){as.numeric(x)*100/sum(as.nume
 barplot(data_percentage, col=coul ,ylim=c(0,100), border="white", main="Porcentaje de aprobados, desaprobados y abandonos por ausente puro por año")
 
 
-
-
-
-
-
-
-
-
-
-
-
 ###Porcentaje de recursantes por ausente puro de grado 2
 porcentaje_recursantes<-c()
 for(i in 1:8)
@@ -324,7 +313,7 @@ barplot(traspuesta,names=labels_2_anios_atras,ylim=c(0,20),main="Porcentaje de r
 
 
 
-###Porcentaje de recursantes por ausente puro con respecto al antepenultimo año con registros
+###Porcentaje de recursantes por ausente puro de grado 3
 porcentaje_recursantes<-c()
 for(i in 1:7)
 {
@@ -371,7 +360,7 @@ barplot(traspuesta,names=labels_3_anios_atras,ylim=c(0,10),main="Porcentaje de r
 
 
 
-###Porcentaje de recursantes por ausente puro con respecto al ultimo año con registros aprobados en parcial
+###Porcentaje de recursantes de grado 1 aprobados en parcial
 porcentaje_recursantes<-c()
 for(i in 1:9)
 {
@@ -417,7 +406,7 @@ for(i in 1:9)
 
 x<-porcentaje_recursantes
 
-###Porcentaje de recursantes por ausente puro con respecto al ultimo año con registros aprobados en recuperatorio
+###Porcentaje de recursantes por ausente puro de grado 1 aprobados en recuperatorio
 porcentaje_recursantes<-c()
 for(i in 1:9)
 {
@@ -464,7 +453,7 @@ for(i in 1:9)
 y<-porcentaje_recursantes
 
 
-###Porcentaje de recursantes por ausente puro con respecto al ultimo año con registros aprobados en prefinal
+###Porcentaje de recursantes por ausente puro de grado 1 aprobados en prefinal
 porcentaje_recursantes<-c()
 for(i in 1:9)
 {
@@ -526,7 +515,7 @@ grado_1<-(x+y+z)
 ##legend("top", colnames(matriz),fill=coul, cex=0.8,inset=.02)
 
 
-###Porcentaje de recursantes por ausente puro con respecto al penultimo año con registros aprobados en parcial
+###Porcentaje de recursantes por ausente puro de grado 2 aprobados en parcial
 porcentaje_recursantes<-c()
 for(i in 1:8)
 {
@@ -572,7 +561,7 @@ for(i in 1:8)
 
 x<-porcentaje_recursantes
 
-###Porcentaje de recursantes por ausente puro con respecto al penultimo año con registros aprobados en recuperatorio
+###Porcentaje de recursantes por ausente puro de grado 2 aprobados en recuperatorio
 porcentaje_recursantes<-c()
 for(i in 1:8)
 {
@@ -616,7 +605,7 @@ for(i in 1:8)
 
 y<-porcentaje_recursantes
 
-###Porcentaje de recursantes por ausente puro con respecto al penultimo año con registros aprobados en prefinal
+###Porcentaje de recursantes por ausente puro de grado 2 aprobados en prefinal
 porcentaje_recursantes<-c()
 for(i in 1:8)
 {
@@ -674,7 +663,7 @@ data_percentage <- apply(t(matriz), 2, function(x){as.numeric(x)*100})
 barplot(data_percentage, col=coul ,ylim=c(0,100), border="white", main="Porcentaje de recursantes por ausente puro de grado 2 aprobados por instancia")
 
 
-###Porcentaje de recursantes por ausente puro con respecto al antepenultimo año con registros aprobados en parcial
+###Porcentaje de recursantes por ausente puro de grado 3 aprobados en parcial
 porcentaje_recursantes<-c()
 for(i in 1:7)
 {
@@ -722,7 +711,7 @@ for(i in 1:7)
 x<-porcentaje_recursantes
 
 
-###Porcentaje de recursantes por ausente puro con respecto al antepenultimo año con registros aprobados en recuperatorio
+###Porcentaje de recursantes por ausente puro de grado 3 aprobados en recuperatorio
 porcentaje_recursantes<-c()
 for(i in 1:7)
 {
@@ -769,7 +758,7 @@ for(i in 1:7)
 
 y<-porcentaje_recursantes
 
-###Porcentaje de recursantes por ausente puro con respecto al antepenultimo año con registros aprobados en prefinal
+###Porcentaje de recursantes por ausente puro de grado 3  aprobados en prefinal
 porcentaje_recursantes<-c()
 for(i in 1:7)
 {
